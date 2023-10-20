@@ -1,2 +1,0 @@
-Site feito apenas para desktop. Não consegui adaptar para outros tipos de tela.
-Formulario com validação e conferindo emails fakes;
