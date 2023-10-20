@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.botao {
+    background: crimson;
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 5px 5px 0 cyan;
+    color: #fff;
+    font-weight: 700;
+    padding: .6rem 3rem;
+    text-transform: uppercase;
+
+}
+
+#navbar {
+    background-color: #9400D3
+}
+ 
+body {
+    width: 100%;
+     height: 100vh;
+    background-color: #00BFFF; 
+    background-image: url('./assets/fundoazul.png');
+    background-size: cover;
+    
+}
+
+.fundo {
+    display: flex;
+    justify-content: center;    
+}
+
+.main-div {
+    display: flex;      
+    gap: 6em;
+    margin: 10em;
+  
+}
+
+
+form {
+    background-color: #fff;
+    width: 51vw;
+    height: 64vh;
+}
+.textoform {
+    font-size: 12px;
+}
+
+.inscricao{
+    display: grid;
+   grid-template-columns: 100%;
+   
+
+}
+ 
+
+
+.imagempromocao {
+    width: 100%;
+}
+
+form{
+    width: 500px;
+}
+    
+
+.concorra {
+    padding-top: 10%;
+}
+
+.paises {
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+    padding-top: 20px;
+    font-weight: 500;
+    
+    
+}
+
+
+.corpaises {
+    color: blue;
+}
+
+.aviso {
+    font-size: 13px;
+}
+
+.divbotao {
+    display: flex;
+}
+
+.botaoform {
+    width: 17rem;
+    background:purple;
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 5px 5px 0 cyan;
+    color: #fff;
+    font-weight: 750;
+    padding: .8rem 4rem;
+    text-transform: uppercase;
+}
+
+.botaoquero {
+    display: flex;
+    justify-content: center;
+}
+
+.desc {
+    font-size: 10px;
+}
+
+.aviso {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+/* fotos mas imagem garoto*/
+.participar {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    
+}
+.comoparticipar {
+    font-size: 45px;
+    color: purple;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.passos {
+    display: flex;
+    list-style:none;
+    flex-direction: column;
+    padding: 20px;
+    gap: 70px;
+}
+
+.fundoroxo {
+    width: 100%;
+     height: 100vh;
+    background-color: purple;
+    background-image: url(./assets/fundoazul.png);
+    background-size: cover;
+}
+
+.h4roxo {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    color: white;
+    padding-top: 5%;
+    
+}
+
+
+.mainroxa {
+    width: 80%;
+    max-width: 1048px;
+    margin: 0 auto;
+    padding: 55px 0;
+    display: flex;
+    justify-content: space-between;
+   
+   
+
+}
+
+.concorra2 {
+    width: 50%;
+   
+}
+
+.quadrado{
+    border: 1px solid cyan;
+    border-radius: 12px;
+    padding: 16px;
+    width: 26em;
+    height: 35%;
+    background-color: purple;
+    font-family: sans-serif;
+   
+    
+  
+}
+
+ 
+  
+  .message {
+    color: cyan;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+  
+  }
+  
+  .message:first-of-type {
+    margin-bottom: 0.5rem;
+  }
+  
+  
+  .text > span {
+    display: block;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+
+  .aviao {
+    display: flex;
+    padding-top: 120px;
+    margin-right: 10px;
+    
+    flex-direction: column;
+    
+ }
+
+ .matricule {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+    font-size: 60px;
+    color: cyan;
+    font-weight: 750;
+ }
+
+ .malas {
+    font-size:40px;
+    color:cyan;
+    font-weight: 500;
+ }
+  
+  .fundobranco{
+    width: 100%;
+     height: 100vh;
+    background-color:white;
+
+  }
+
+  .duvidas {
+    display: flex;
+    justify-content: center;
+    color: #9400D3;
+    font-size: 3.5em;
+    font-weight: 800;
+    padding-top: 3.3rem
+   
+  }
+
+  
+  .accordion {
+    --bs-accordion-border-color: #9400D3;
+    --bs-accordion-border-width: 2px;
+    --bs-accordion-btn-icon-width: 20px;
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-border-right:none;
+
+}
+
+.accordion-item {
+    border-right: 0;
+    border-left: 0;
+}
+
+.promocao {
+    display: flex;
+    justify-content: center;
+    padding-top:4em;
+    font-size: 13px;
+}
+
+.rodaperoxo {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    background-color: #9400D3;
+}
+
+.listarodape {
+    display: flex;
+    gap:50px;
+    list-style:none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.footer2 {
+    width: 100%;
+    padding: 5px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+
+.yazigiperso {
+    width: 120px;
+    
+}
+
+
+.redes {
+    width: 13.5rem;
+    
+}
+
+.footer2 ul {
+    list-style: none;
+    
+}
+
+.final {
+width: 100%;
+    padding: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.market {
+    height: 30px;
+    width: 20rem;
+}
